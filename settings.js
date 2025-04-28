@@ -1,15 +1,7 @@
-/*
- █▀▀█ █░▒█ █▀▀▀ █▀▀▀ █▄░▒█       █▀▀▀ █░░░ ▀█▀ █▀▀▀█ █▀▀█      
- █░▒█ █░▒█ █▀▀▀ █▀▀▀ █▒█▒█       █▀▀▀ █░░░ ░█░ ▀▀▀▄▄ █▄▄█      
- ▀▀█▄ ▀▄▄▀ █▄▄▄ █▄▄▄ █░░▀█       █▄▄▄ █▄▄█ ▄█▄ █▄▄▄█ █░▒█      
 
-
- █░░▒█   ▄█░
- ▒█▒█░   ░█░
- ░▀▄▀░   ▄█▄
  
- 𝙌𝙪𝙚𝙚𝙣 𝙀𝙡𝙞𝙨𝙖 𝙈𝘿 𝘽𝙮 𝘿𝙖𝙧𝙠 𝙈𝙖𝙠𝙚𝙧 
- 𝙋𝙪𝙗𝙡𝙞𝙘 𝘿𝙖𝙩𝙚 - 2022 / 07 / 03 
+ DECK-BOT 𝘽𝙮 OGHENE DECKLAND
+ 𝙋𝙪𝙗𝙡𝙞𝙘 𝘿𝙖𝙩𝙚 - 2025 / 04 / 28
  𝙏𝙝𝙖𝙣𝙠𝙨 𝙏𝙤 𝙎𝙘𝙧𝙞𝙥𝙩 𝙁𝙧𝙤 𝙂𝙤𝙟𝙤 𝙎𝙖𝙩𝙤𝙧𝙪
  
  𝙏𝙝𝙖𝙣𝙠𝙨 𝙏𝙤
@@ -32,14 +24,14 @@ global.APIKeys = {
 }
 
 //other
-global.owner = ['254718241545'] // Owner number , (අයිතිකරුගේ නම්බර් එක )
-global.pemilik = ['254718241545'] //Change  it , ඔබට කැමති නම් වෙනස් කරන්න
-global.premium = ['254718241545'] //Change it ඔබට කැමතිනම් වෙනස් කරන්න 
-global.pengguna = 'Krakinz' // Your name ඔබේ නම 
-global.botnma = '💃 𝐐𝐮𝐞𝐞𝐧 𝐄𝐥𝐢𝐬𝐚 𝐁𝐨𝐭 💃' // Your bot name , ඔබගෙ බොට්ගේ නම 
-global.ownernma = 'Krakinz' //ownernama,ownername
-global.packname = 'Queen Elisa Sticker' // Sticker package name 
-global.author = 'KrakinzLab' // Sticker Autor name 
+global.owner = ['2348075389275'] // Owner number , (අයිතිකරුගේ නම්බර් එක )
+global.pemilik = ['2348075389275'] //Change  it , ඔබට කැමති නම් වෙනස් කරන්න
+global.premium = ['2348075389275'] //Change it ඔබට කැමතිනම් වෙනස් කරන්න 
+global.pengguna = 'DECKLAND' // Your name ඔබේ නම 
+global.botnma = '🔥 DECK-𝐁𝐨𝐭 🔥' // Your bot name , ඔබගෙ බොට්ගේ නම 
+global.ownernma = 'DECKLAND' //ownernama,ownername
+global.packname = 'DECKLAND Sticker' // Sticker package name 
+global.author = 'DECKLAND' // Sticker Autor name 
 global.sessionName = 'session'
 global.prefa = ['#','!','/',''] 
 global.sp = '🖥'
@@ -51,7 +43,7 @@ Download song type .yt
 Thanks fro using...`
 // Welcome massage  ඔබට කැමති නම් මෙයට ඔබෙ welcome massage  එක යොදන්න 
 global.welcome = `
-🌀 Thanks Fro using Queen Elisa bot
+🌀 Thanks Fro using DECK bot
 ✾ Some bugs fixing
 😼♥️
 `
@@ -60,16 +52,16 @@ global.sendwelcome = `add`
 // Good bye එක ඔනි නම් remove කියලා දාන්න
 global.sendgoodbye = `remove`
 // Caption 
-global.cap = `© 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 𝐐𝐮𝐞𝐞𝐧 𝐄𝐥𝐢𝐬𝐚 𝐌𝐃`
+global.cap = `© 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐁𝐲 DECK-BOT`
 global.mess = {
     success: '✅ Done!',
     admin: 'you must be admin to use this cmd!',
     botAdmin: 'Bot must be admin neh!',
-    owner: 'This cmd is for Elisa bot owner only',
+    owner: 'This cmd is for DECK bot owner only',
     group: 'oooh sorry this cmd is for groups only!',
     private: 'goossssh it can only used in dms!',
     bot: 'This cmd  its only for the bot host',
-    wait: 'Wait Elisa bot processing ',
+    wait: 'Wait DECK bot processing ',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
 global.limitawal = {
@@ -85,8 +77,8 @@ global.limitawal = {
         potionawal: 1
      }    
 
-global.thumb = fs.readFileSync('./image/Elisa.jpg')
-global.imgalive = fs.readFileSync('./image/Elisa.jpg')
+global.thumb = fs.readFileSync('./image/Deck.jpg')
+global.imgalive = fs.readFileSync('./image/Deck.jpg')
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
